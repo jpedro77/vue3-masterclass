@@ -16,14 +16,14 @@
 import ThreadListItem from '@/components/ThreadListItem'
 
 export default {
-  components: {
-    ThreadListItem
-  },
   props: {
     threads: {
       required: true,
       type: Array
     }
+  },
+  components: {
+    ThreadListItem
   }
 }
 </script>
