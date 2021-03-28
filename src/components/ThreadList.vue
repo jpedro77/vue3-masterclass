@@ -5,7 +5,7 @@
 
       <h2 class="list-title">Threads</h2>
 
-      <thread-list-item v-for="thread in threads" :key="thread.id" :thread="thread" class="thread"/>
+      <thread-list-item v-for="thread in threads" :key="thread.id" :thread="thread"/>
 
     </div>
 
